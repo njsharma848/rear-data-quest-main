@@ -2,7 +2,7 @@ import boto3
 import requests
 from bs4 import BeautifulSoup
 
-S3_BUCKET_NAME = "data-quest-bucket"
+S3_BUCKET_NAME = "data-quest-rearc-bucket"
 DATA_SOURCE = "download.bls.gov - /pub/time.series/pr/"
 
 # Initialize S3 resource and get the bucket
